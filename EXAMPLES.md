@@ -2,8 +2,17 @@
 
 How to use **bigboy**
 
-## Project Structure
+## Table of Contents
+- [Project Structure](#project-structure)
+- [Basic](#basic)
+- [Nest](#nest)
+- [Params](#params)
+- [Prefetch](#prefetch)
+- [Split](#split)
 
+### Project Structure
+
+```
 ├── bigboy
 ├── bigboy.json
 └── examples
@@ -24,6 +33,7 @@ How to use **bigboy**
     └── split
         ├── extract.sql
         └── target.json
+```
 
 Note: *bigboy* is a binary executable. Can be downloaded from the list of [releases](https://github.com/igor-starostenko/bigboy/releases/latest)
 
@@ -251,6 +261,7 @@ Output is saved in multiple files with `json` extension under `out/examples/spli
 ```
 13548 rows written to 4 files in 1 seconds
 ```
+```
 out
 └── examples
     └── split
@@ -258,6 +269,7 @@ out
         ├── 2018-03-13.json
         ├── 2018-03-19.json
         └── 2018-03-27.json
+```
 
 Output of the `out/examples/split/2018-03-27.json`:
 ```json
